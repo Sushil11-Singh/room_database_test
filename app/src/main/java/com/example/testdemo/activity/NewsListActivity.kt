@@ -84,6 +84,7 @@ class NewsListActivity : AppCompatActivity() {
                     rv_news.adapter = adapter
                 } else {
                     Toast.makeText(getApplicationContext(), "Please connect to internet", Toast.LENGTH_LONG).show();
+
                 }
 
             }
